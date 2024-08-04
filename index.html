@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLX-Buy and Sell for anywhere</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/olx">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+
+<body>
+  <section class="sec-1">
+    <header>
+      <img src="assets/olx-logo-png.png" alt="" class="olx-logo-png">
+      <div class="motors-logo-div">
+        <img src="assets/motors-logo.png" alt="" class="motors-logo">
+      </div>
+      <p class="header-p">Motors</p>
+
+      <div class="motors-logo-div">
+        <img src="assets/building.png" alt="" class="motors-logo">
+      </div>
+      <p class="header-p">Property</p>
+
+    </header>
+
+
+    <!-- second nav -->
+
+    <div class="navbar2" style="display: flex">
+      <div class="location">
+        <button style="
+              width: 300px;
+              height: 50px;
+              
+              background-color: white;
+              border: 1px solid rgb(218, 212, 212);
+              border-radius: 0.2em;
+              display: flex;
+              margin-left: 30px;
+              
+
+            ">
+          <img src="assets/location.png" style="height: 20px; width: 25px; margin-left: 20px; margin-top: 15px;" />
+          <p style="font-size: 15px; margin-top: 15px; margin-left: 10px;"> Pakistan</p>
+          <select style="height: 20px; width: 30px; margin-left: 140px; margin-top: 20px; border: none;">
+            <option></option>
+            <option>Azad Kashmir, Pakistan
+            </option>
+            <option> Balochistan, Pakistan
+            </option>
+            <option>Islamabad Capital Territory, Pakist...</option>
+          </select>
+        </button>
+      </div>
+      <div class="search" style="display: flex">
+        <button style="
+              width: 550px;
+              height: 50px;
+              border: 1px solid rgb(218, 209, 209);
+              border-top-left-radius: 0.2em;
+              background-color: white;
+              margin-left: 30px;
+              color: gray;
+              text-align: left;
+              padding-left: 10px;
+              font-size: medium;
+            ">
+          Find Cars, Mobile Phones and more...
+        </button>
+        <div style="
+              height: 50px;
+              width: 50px;
+              background-color: black;
+              border-top-right-radius: 0.2em;
+              border-bottom-right-radius: 0.2em;
+            ">
+          <a><img src="assets/glass.png" style="
+                  height: 40px;
+                  width: 40px;
+                  background-color: black;
+                  padding-left: 15px;
+                  padding-top: 5px;
+                " /></a>
+        </div>
+      </div>
+      <!-- icons  -->
+      <div class="social-icons" style="display: flex">
+        <div class="chat" style="
+              width: 40px;
+              height: 40px;
+              background-color: white;
+              display: flex;
+            ">
+          <img src="assets/chat-bubble.png" style="
+                width: 25px;
+                height: 25px;
+                margin-left: 30px;
+                margin-top: 10px;
+              " />
+        </div>
+        <!-- bell icon -->
+        <div class="chat" style="
+              width: 50px;
+              height: 50px;
+              /* border: 2px solid black; */
+              display: flex;
+              margin-left: 35px;
+            ">
+          <img src="assets/bell.png" style="
+                width: 25px;
+                height: 25px;
+                margin-top: 10px;
+                margin-left: 10px;
+              " />
+        </div>
+        <!-- women -->
+        <div class="chat" style="
+              width: 20px;
+              height: 50px;
+              /* border: 2px solid black; */
+              display: flex;
+              margin-left: 10px;
+            ">
+          <img src="assets/woman.png" style="
+                width: 30px;
+                height: 30px;
+                margin-top: 10px;
+                margin-left: 5px;
+              " />
+          <select style="border: transparent">
+            <!-- <option>
+              <img src="woman.png" style="width: 30px; height: 30px; margin-top: 10px; margin-left: 10px;" />
+            </option>
+            <option ></option>
+            <option></option>
+            <option></option>
+            <option></option> -->
+          </select>
+        </div>
+        <button class="sell" style="
+              border: 5px solid;
+              border-radius: 2em;
+              background-color: white;
+              border-top-color: aqua;
+              border-bottom-color: rgb(79, 79, 240);
+              border-left-color: rgb(250, 250, 80);
+              border-right-color: rgb(79, 79, 240);
+              width: 110px;
+              margin-left: 80px;
+              margin-top: 5px;
+              height: 45px;
+            ">
+          <p style="
+                font-size: x-large;
+                font-weight: bolder;
+                display: inline-block;
+                margin-right: 5px;
+              ">
+            +
+          </p>
+          <p style="
+                font-size: small;
+                display: inline-block;
+                padding-top: 5px;
+                font-weight: 800;
+              ">
+            SELL
+          </p>
+        </button>
+      </div>
+    </div>
+    </header>
+    <br />
+    <hr style="border: 0.1px solid gainsboro" />
+
+  </section>
+
+  <!-- hero section -->
+
+  <section class="sec-2">
+    <div class="hero-sec">
+
+      <div class="categori">
+      <a href="#" style="color: black">ALL CATEGORIES</a> 
+       <img src="assets/aero down.jpg" class="arrow-down"> 
+
+
+
+      <!-- <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ALL CATEGORIES
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div> -->
+    
+      
+      <a href="#mobilephones">Mobile Phones</a>
+      <a href="#cars">Cars</a>
+      <a href="#bikes">Motorcycles</a>
+      <a href="#houses">Houses</a>
+      <a href="#Video-Audios">Video-Audios</a>
+      <a href="#Tablets">Tablets</a>
+      <a href="#lands">Land & Plots</a>
+      <a href="#jobs">Jobs</a>
+    </div>
+
+
+    <!-- carousel -->
+
+    <div class="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/carousel-img1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carousel-img1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carousel-img1.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- adds -->
+  <section>
+    <img src="assets/add.jpeg" style="margin-left: 200px; margin-top: 50px;">
+  </section>
+
+  <!-- all catogeries -->
+  <section>
+    <div class="all-categories1">
+      <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;"><b>All categories</b>
+      </h3>
+    
+
+
+      <!-- items -->
+      <div style="display: flex;">
+        <div>
+          <img src="assets/categori-img1.png" style=" margin-left: 40px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Mobiles</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img2.png" style=" margin-left: 60px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Vehicles</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img3.png" style=" margin-left: 60px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Property for Sale
+          </h6>
+        </div>
+        <div>
+          <img src="assets/categori-img4.png" style=" margin-left: 30px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Property for<br>
+            Rent</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img5.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Electronic &
+            <br>Home <br>appliances
+          </h6>
+        </div>
+        <div>
+          <img src="assets/categori-img6.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Bikes</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img7.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Business,
+            <br>Industrial &<br> Agriculture
+          </h6>
+        </div>
+        <div>
+          <img src="assets/categori-img8.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Services</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img9.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 45px; padding-top: 10px; text-align: center; font-weight: bold;">Jobs</h6>
+        </div>
+      </div>
+
+      <div class="all-categories2" style="display: flex; margin-top: 30px;">
+        <div>
+          <img src="assets/categori-img10.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Animals</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img11.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Furniture &<br>Home
+            Decor</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img12.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Fashion &<br>Beauty
+          </h6>
+        </div>
+        <div>
+          <img src="assets/categori-img13.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Books Sports,<br> &
+            Hobbies</h6>
+        </div>
+        <div>
+          <img src="assets/categori-img14.png" style=" margin-left: 55px; height: 90px; width: 90px;">
+          <h6 style="padding-left: 40px; padding-top: 10px; text-align: center; font-weight: bold;">Kids</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Mobile phones -->
+  <section class="mobilephones" id="mobilephones">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Mobile Phones</h3>
+
+    <!-- 1 -->
+    <div class="mob-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/card-img1.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Iphone 12 pro ROM:4736GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Model Town, Lahore <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/card-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 70,000</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Iphone 12 pro ROM:276GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Model Town, Lahore <br>Two days ago
+        </p>
+      </div>
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/card-img3.png" style="height: 150px; width: 300px;">
+        </div>
+        <diV style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 50,600</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left:150px ;">
+        </diV>
+        <p style="padding-left: 15px;">Iphone 12 pro ROM:456GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Model Town, Lahore <br>Two days ago
+        </p>
+      </div>
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/card-img4.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,000</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; margin-left: 150px; margin-top: 20px; float: right;" class="like-icon">
+        </div>
+        <p style="padding-left: 15px;">Iphone 12 pro ROM:266GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Model Town, Lahore <br>Two days ago
+        </p>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- end -->
+
+  </section>
+
+
+
+  <!-- cars  section -->
+  <section class="cars" id="cars">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Cars</h3>
+    <!-- 1 -->
+    <div class="car-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/car-img1.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Suzuki Alto VXR 2023<br> Model for sale </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Chaklala, Rawalpindi <br>one week ago
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/car-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 70,000</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Alto Swift<br> 2022 </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Defence Road, Karachi <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/car-img3.png" style="height: 150px; width: 300px;">
+        </div>
+        <diV style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 50,600</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left:150px ;">
+        </diV>
+        <p style="padding-left: 15px;">Corolla Toyota | Black<br> Model 2013 </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Taulambba Road, Mian chunu <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/car-img4.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,000</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; margin-left: 150px; margin-top: 20px; float: right;" class="like-icon">
+        </div>
+        <p style="padding-left: 15px;">Honda Civic VTi oriel Prosmatec<br>2009 </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Velecia Town, Lahore <br>5 days ago
+        </p>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- end -->
+  </section>
+
+
+  <!-- Bikes & Motorcycles -->
+
+  <section class="bikes" id="bikes">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Bikes & Motorcycles</h3>
+    <!-- 1 -->
+    <div class="car-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/bike-img1.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Yamaha YBR 125G <br>Mette black 2024 </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Johr Town, Lahore <br>6 days ago
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/bike-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Gd110s<br> with registration</p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Federal B Area, Karahi<br>4 days ago
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/bike-img3.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Honda CB -150F<br>for sale </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Abid Majeed Road, Lahore <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/bike-img4.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Honda s1000rr replica<br> New price in 48800 </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Misryal road, Rawalpindi <br>5 days ago
+        </p>
+      </div>
+  </section>
+
+  <!-- Houses -->
+
+  <section class="houses" id="houses">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Houses</h3>
+    <!-- 1 -->
+    <div class="car-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/house-img1.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Furished 1 Kanal Medern Design<br> Luxury Bangalow for Sale </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">DHA Phase-6, Lahore <br>Two weeks ago
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/house-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">10 Marla Beautiful Double Story House<br>For Sale in Wapda Town </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Wapda Town phase-2, Lahore <br>one day ago
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/house-img3.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Independent Bangalow Available For <br>Sale In Block 13 </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Gulshan-e-Johr, Karachi <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/house-img4.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Thre years Installments Plan 5 Marla<br>New house Park </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Park View villas, Nowshera <br>4 weeks ago
+        </p>
+      </div>
+  </section>
+
+  <!-- Video-Audios -->
+
+  <section class="Video-Audios" id="Video-Audios">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Video-Audios</h3>
+    <!-- 1 -->
+    <div class="car-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/audio-img1.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Walkie Talkie Wireless Set<br> Boefeng UV-82 | Two way radio</p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">I-8, Islamabad <br>4 days ago
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/audio-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Walkie Talkie<br> Wireless Set | two way radio</p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Denso Hall; Lahore <br>10 days ago
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/audio-img3.jpeg" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Walkie Talkie Motrola<br>Wireless set</p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Saadar, Lahore <br>one day ago
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/audio-img.4.jpeg" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">3KW 12KW Solar system <br>price show in images </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Model Town, Lahore <br>Two days ago
+        </p>
+      </div>
+  </section>
+
+  <!-- Tablets -->
+
+  <section class="Tablets" id="Tablets">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Tablets</h3>
+    <!-- 1 -->
+    <div class="car-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/tablet-img1.jpeg" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">OnePlus Pad ROM:4736GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">DHA phase 5, Lahore <br>6 days ago
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/tablet-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Samsung Glaxy  ROM:4736GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">City Court, Lahore <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/tablet-img3.jpeg" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Amazon 8 inches Tab ROM:4736GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Gulshan-e-Iqbal, Karachi <br>three days ago
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/tablet-img4.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Ipad Pro ROM:4736GB<br> RAM:12GB Official PTA Approved </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Model Town, Lahore <br>Two days ago
+        </p>
+      </div>
+  </section>
+
+  <!-- Land & Plots -->
+
+
+  <section class="lands" id="lands">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Land & Plots</h3>
+    <!-- 1 -->
+    <div class="car-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/plot-img1.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">8 Marla Possession Plot for Sale in Broadroad </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Broadway, Lahore <br>few hours ago
+        </p>
+      </div>
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/plot-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Direct 1 kanal residentialplot At Ideal Location In block Q DHA phase </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">DHA phase 7 Block Q, Lahore <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/plot-img3.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">125 & 250 sq yd residential Park Facing and Corner Plots </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">AL-Raheem Town, Bahawalpur <br>five days ago
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/plot-img4.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Better oppertunityfor residential property </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Shah Faisal Town <br>Two days ago
+        </p>
+      </div>
+  </section>
+
+  <!-- Jobs -->
+
+  <section class="jobs" id="jobs">
+    <h3 style="margin-top: 50px; margin-left: 40px; margin-bottom: 30px; font-weight: bolder;">Jobs</h3>
+    <!-- 1 -->
+    <div class="car-sec" style="display: flex;">
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/job-img1.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Chat support agent/ Best job oppertunity </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Gaddafi Stadium, Lahore <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/job-img2.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Office boy required </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Calvary Ground, Lahore <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/job-img3.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Female model/ Assistant job </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">Garden Town, Lahore <br>Two days ago
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-1">
+        <div class="card-img1">
+          <img src="assets/job-img4.png" style="height: 150px; width: 300px;">
+        </div>
+        <div style="display: flex;">
+          <h6 style="padding-left: 20px; padding-top: 20px; text-align: start; font-weight: bold;">Rs, 75,800</h6>
+          <img src="assets/like-icon.png"
+            style="height: 20px; width: 20px; float: right; margin-top: 20px; margin-left: 150px;">
+        </div>
+        <p style="padding-left: 15px;">Talesale Presentative </p>
+        <p style="color: rgb(150, 146, 146); padding-left: 15px; font-size: small;">DHA phase 4, Lahore <br>4 weeks ago
+        </p>
+      </div>
+  </section>
+
+  <!-- add 2 -->
+  <section>
+    <img src="assets/add-img2.png" style="margin-left: 200px; margin-top: 50px;">
+  </section>
+
+  <!-- footer -->
+
+  <footer>
+
+    <div class="footer-1">
+      <div>
+        <img src="assets/footer-img1.png">
+      </div>
+      <div style="height:200px ; width: 500px; ">
+        <h1>TRY THE OLX APP</h1>
+        <p>Buy, sell and find just about anything using<br> the app on your mobile.</p>
+      </div>
+      <div class="vl"></div>
+       <div style="height: 200px; width: 500px;">
+           <div style="font-weight: 700; margin-left: 40px; margin-top: 60px; height: 20px; width: 200px;  font-size: 14px; ">GET YOUR APP TODAY
+           </div>
+      <div style="display: flex;"> 
+            <div class="app-store"><img src="assets/apple (4).png" class="apple">
+          <p class="apple-p">Download on the <br><span>App Store</span></p>
+           </div>
+           <div class="app-store"><img src="assets/playstore.png" class="play-store">
+           <p class="apple-p">Get it on <br><span style="font-size: 10px;">Google play</span></p>
+           </div>
+            <div class="app-store"><img src="assets/huawei.png" class="play-store">
+            <p class="apple-p">Explore it on <br><span>AppGallery</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- footer 2 -->
+    <div class="footer-2" style="display: flex">
+      <div class="footer-2-p1"
+        style="margin-left: 60px; margin-top: 10px; font-size: 12px; color: grey; line-height: 5px;  padding-top: 20px;">
+        <p style="color: black;"><b>POPULAR CATEGORIES</b></p>
+        <p>Cars</p>
+        <p> Flats for rent</p>
+        <p> Mobile Phones</p>
+        <p>Jobs</p>
+      </div>
+      <div class="footer-2-p2"
+        style="margin-left: 100px; margin-top: 30px; font-size: 12px; color: grey; line-height: 5px;">
+        <p style="color: black;"><b>TRENDING SEARCHES</b></p>
+        <p>Bikes</p>
+        <p>Watches</p>
+        <p>Books</p>
+        <p>Dogs</p>
+      </div>
+      <div class="footer-2-p3"
+        style="margin-left: 100px; margin-top: 30px; font-size: 12px; color: grey; line-height: 5px;">
+        <p style="color: black;"><b>ABOUT US</b></p>
+        <p>About Dubizzle Group</p>
+        <p>OLX Blog</p>
+        <p>Contact Us</p>
+        <p></p>
+      </div>
+      <div class="footer-2-p4"
+        style="margin-left: 100px; margin-top: 30px; font-size: 12px; color: grey; line-height: 5px;">
+        <p style="color: black;"><b>OLX</b></p>
+        <p>Help</p>
+        <p>Sitemap</p>
+        <p>Term of use</p>
+        <p>Privacy Policy</p>
+      </div>
+     
+    <div style="  height: 200px; width: 400px; margin-left: 80px;">
+      <div class="footer-2-p5" style="margin-left: 40px;  font-size: 12px; color: grey; line-height: 5px; padding-top: 30px; width: 150px; height: 80px;">
+        <p style="color: rgb(34, 34, 34); font-size: 14px; font-weight:700; letter-spacing: 1px;"><b>Follow US</b></p>
+        <img src="assets/twitter (2).png" style="height: 20px; width: 20px; margin-left: 3px;">
+        <img src="assets/facebook (2).png" style="height: 20px; width: 20px; margin-left: px">
+        <img src="assets/play-button.png" style="height: 20px; width: 20px; margin-left: px">
+        <img src="assets/instagram (1).png" style="height: 20px; width: 20px; margin-left: px">
+
+       
+
+
+      </div>
+      <div  style="display: flex;">
+      <div class="app-store2"><img src="assets/apple (4).png" class="apple">
+        <p class="apple-p2">Download on the <br>App Store</p>
+      </div>
+      <div class="app-store2"><img src="assets/playstore.png" class="play-store">
+        <p class="apple-p2">Get it on <br>Google play</p>
+      </div>
+      <div class="app-store2"><img src="assets/huawei.png" class="play-store">
+        <p class="apple-p2">Explore it on <br>AppGallery</p>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+    <div class="footer-3" >
+      <p style="float: right; color: white; padding-top: 10px; padding-right: 50px; font-size: 12px; font-weight: 600;">
+        Free Classifieds in Pakistan  . © 2006-2024 OLX</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

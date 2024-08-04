@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    /* position: fixed; */
+    align-items: center;
+    display: flex;
+
+}
+
+.olx-logo-png {
+    height: 60px;
+    width: 60px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.motors-logo-div {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(rgba(0, 47, 52, 0.16), rgba(0, 47, 52, 0.01) 81.77%, rgba(0, 47, 52, 0.01));
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.motors-logo-div:hover {
+    color: rgb(36, 116, 236);
+    background-color: rgb(239, 241, 243);
+}
+
+.motors-logo {
+    height: 25px;
+    width: 25px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.motors-logo:hover {
+    color: rgb(36, 116, 236);
+}
+
+.header-p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 25px;
+
+}
+
+.header-p:hover {
+    color: rgb(36, 116, 236);
+}
+
+.sec-1{
+    /* position: fixed; */
+    background-color: white;
+}
+/* .sec-2{
+    margin-top: 100px;
+} */
+
+.hero-sec a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-size: 15px;
+}
+
+.hero-sec a:hover {
+    color: grey;
+}
+
+.carousel {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-1 {
+    height: 320px;
+    width: 300px;
+    border: 1px solid rgb(189, 177, 177);
+    margin-left: 30px;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+.card-img1 {
+    height: 150px;
+    width: 300px;
+    border-radius: .5em;
+}
+
+/* .like-icon{
+    
+}
+.like-icon:hover{
+    background-color: orchid;
+} */
+
+/* .property-logo{
+    height: 80px;
+    width: 150px;
+    border: 1px solid black;
+    margin-right: 200px ;
+    
+} */
+
+
+.footer-1{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(252, 250, 250);
+    margin-top: 20px;
+ display: flex; 
+}
+
+.footer-1 h1{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.footer-1 p{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+.vl {
+    border-left: 1px solid rgb(198, 202, 198);
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+
+  }
+  .app-store{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 5px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  }
+
+  .apple{
+    height: 20px;
+    width: 20px;
+  }
+  .apple-p{
+    font-size: 8px !important;
+    color: rgb(248, 248, 253);
+     margin-top: 0 !important; 
+
+    padding-top: 5px;
+  }
+  .apple-p2{
+    font-size: 7px ;
+    color: rgb(248, 248, 253);
+     margin-left: 5px;
+
+    padding-top: 3px;
+    padding-left: 2px;
+    display: flex;
+  }
+  .app-store2{
+    height: 25px;
+    width: 90px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 5px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  }
+
+  .play-store{
+    height: 20px;
+    width: 20px;
+    padding-top: 7px;
+    padding-left: 5px;
+  }
+
+
+.footer-2{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(241, 245, 245);
+}
+
+.footer-3{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(39, 48, 70);
+}
+
+.categori{
+    display: flex;
+}
+ .arrow-down{
+    height: 10px;
+    width: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  /* motors-page */
+                                                  
+.nav-1{
+    height: 90px;
+    width: 100%;
+  /* border: 1px solid black;  */
+    display: flex;
+    background-color: white;
+    /* position: fixed; */
+}
+.olx-logo2{
+    height: 60px;
+    width: 60px;
+align-items: center;
+}
+
+.motors-logo-div2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(rgba(0, 47, 52, 0.16), rgba(0, 47, 52, 0.01) 81.77%, rgba(0, 47, 52, 0.01));
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.header-p2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+.header-p2:hover {
+    color: rgb(36, 116, 236);
+}
+
+.motors-logo-div2:hover {
+    color: rgb(36, 116, 236);
+    background-color: rgb(239, 241, 243);
+}
+                                     /* navbar */
+.nav-2{
+    height: 100px;
+    width: 100%;
+    /* border: 10px solid rgb(7, 216, 35); */
+    /* margin-top: 30px; */
+    /* background-color: aquamarine; */
+    display: flex;
+    background-color: rgb(248, 245, 245)
+}
+.olx-logo3{
+    height: 50px;
+    width: 50px;
+align-items: center;
+margin-top: 10px;
+margin-left: 17px;
+}
+.motors-items{
+color: rgb(95, 95, 95);
+font-size: 17px;
+margin-top: 30px;
+display: flex;
+}
+
+.motors-items a{
+    margin-left: 30px;
+
+}
+
+.motors-items a:hover{
+    color: rgb(54, 49, 49);
+    cursor: pointer;
+}
+ .motors-more:hover{
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
